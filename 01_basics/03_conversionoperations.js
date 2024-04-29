@@ -12,6 +12,9 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
+let isNumber = 36
+console.log(typeof isNumber);
+
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
@@ -22,6 +25,9 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "hitesh" => true
 
 let someNumber = 33
+
+let stringsomenumber = String(someNumber)
+console.log(typeof stringsomenumber);
 
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
@@ -62,7 +68,7 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
